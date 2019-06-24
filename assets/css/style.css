@@ -1,0 +1,104 @@
+body, html{
+    height: 100%;
+    margin: 20px;
+    font-size: 16px;
+    font-family: 'Marcellus SC', serif;
+    color: antiquewhite;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.pagetext {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 8px;
+}
+/* possible problem */
+.pagetext .border {
+    background-color: gold;
+    color: chocolate;
+    padding: 20px;
+}
+.page1, .page2, .page3{
+position: relative;
+opacity: 0.80;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.page1 {
+    background-image: url("../images/background5.jpg");
+    min-height: 100%;
+}
+.page2 {
+    background-image: url("../images/background2.jpg");
+    min-height: 100%;
+}
+.page3 {
+    background-image: url("../images/background3.jpg");
+    min-height: 100%;
+}
+
+/* tested */
+.section {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+/* tested */
+.section-dark {
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+
+ .text-block {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: -20px;
+}
+.text-block h4 {
+      margin: 0;
+} 
+.portcontainerimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+   
+
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+  #navindex {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    align-self: auto;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  } 
+  
