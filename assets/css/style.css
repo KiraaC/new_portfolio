@@ -21,7 +21,7 @@ body, html, h1, h2, h3, h4 {
 /* .pagetext .border .trans {
     background-color: transparent;
 } */
-.page1, .page2, .page3, .page4 {
+.page1, .page2, .page3, .page4, .page5, .page6   {
 position: relative;
 background-position: center;
 background-size: cover;
@@ -30,7 +30,7 @@ background-attachment: fixed;
 }
 /* bio */
 .page1 {
-    background-image: url("../images/background5.jpg");
+    background-image: url("../images/background1.jpg");
     min-height: 100%;
 }
 /* contact forms */
@@ -46,16 +46,16 @@ background-attachment: fixed;
 /* group project links */
 .page4 {
     background-image: url("../images/background3.jpg");
-    min-height: 520px;
+    min-height: 100%;
 }
 /* more text */
 .page5 {
-    background-image: url("../images/background6.jpg");
-    min-height: 520px;
+    background-image: url("../images/background5.jpg");
+    min-height: 100%;
 }
 /* closing page */
 .page6 {
-    background-image: url("../images/background1.jpg");
+    background-image: url("../images/background6.jpg");
     min-height: 100%;
 }
 /* tested */
@@ -117,7 +117,7 @@ color: rgb(255, 255, 255);
     border-bottom: 2px solid #cccccc;
   } 
   @media(max-width: 568px) {
-      .page1, .page2, .page3, .page4{
+      .page1, .page2, .page3, .page4, .page5, .page6   {
           background-attachment: scroll;
       }
   }
