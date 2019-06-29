@@ -16,14 +16,13 @@ body, html, h1, h2, h3, h4 {
     letter-spacing: 8px;
     text-transform: uppercase;
 }
-
+/* removed problem */
 /* make transparent */
 /* .pagetext .border .trans {
     background-color: transparent;
 } */
 .page1, .page2, .page3, .page4 {
 position: relative;
-opacity: 0.80;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -37,17 +36,17 @@ background-attachment: fixed;
 /* contact forms */
 .page2 {
     background-image: url("../images/background2.jpg");
-    min-height: 450px;
+    min-height: 100%;
 }
 /* project page links */
 .page3 {
     background-image: url("../images/background4.jpg");
-    min-height: 455px;
+    min-height: 100%;
 }
 /* more text */
 .page4 {
     background-image: url("../images/background3.jpg");
-    min-height: 450px;
+    min-height: 100%;
 }
 /* closing page */
 .page5 {
@@ -57,11 +56,11 @@ background-attachment: fixed;
 /* tested */
 .section {
     text-align: center;
-    padding: 50px 80px;
+    padding: 50px 100px;
     background-color: rgb(5, 5, 5);
     color: rgb(255, 255, 255);
 }
-.section-color {
+.section-purple {
 background-color: rgb(128, 8, 68);
 color: rgb(255, 255, 255);
 }
@@ -78,9 +77,9 @@ color: rgb(255, 255, 255);
     position: relative;
     top: -20px;
 }
-.text-block h4 {
+/* .text-block h4 {
       margin: 0;
-} 
+}  */
 .containerimg {
     display: flex;
     flex-wrap: wrap;
@@ -117,8 +116,9 @@ color: rgb(255, 255, 255);
           background-attachment: scroll;
       }
   }
+  /* where is this located */
   .main {
-    min-height: 100vh;
+    min-height: 100px;
     background-image: url('./better-galaxy.jpg');
     background-attachment: fixed;
     background-size: cover;
