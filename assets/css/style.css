@@ -1,15 +1,10 @@
-body, html, h1, h2, h3, h4, p{
+body, html, h1, h2, h3, h4 {
     height: 100%;
     margin: 20px;
     font-family: 'Marcellus SC', serif;
     color: antiquewhite;
     font-weight: 400;
     line-height: 1.5em;
-    
-    overflow: hidden;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    
 }
 .pagetext {
     position: absolute;
@@ -22,11 +17,7 @@ body, html, h1, h2, h3, h4, p{
     text-transform: uppercase;
 }
 /* possible problem  I don't want these colors to show, errors in font also*/
-.pagetext .border {
-    background-color: gold;
-    color: chocolate;
-    padding: 20px;
-}
+
 /* make transparent */
 .pagetext .border .trans {
     background-color: transparent;
@@ -79,7 +70,7 @@ color: red;
     background-color: black;
     color: white;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
     position: relative;
     top: -20px;
 }
@@ -92,7 +83,7 @@ color: red;
     justify-content: space-evenly;
   }
    
-.row{
+/* .row{
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -101,7 +92,7 @@ color: red;
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-}
+} */
 .column img{
     margin-top: 8px;
     vertical-align: middle;
