@@ -36,27 +36,32 @@ background-attachment: fixed;
 /* contact forms */
 .page2 {
     background-image: url("../images/background2.jpg");
-    min-height: 100%;
+    min-height: 520px;
 }
 /* project page links */
 .page3 {
     background-image: url("../images/background4.jpg");
     min-height: 100%;
 }
-/* more text */
+/* group project links */
 .page4 {
     background-image: url("../images/background3.jpg");
-    min-height: 100%;
+    min-height: 520px;
+}
+/* more text */
+.page5 {
+    background-image: url("../images/background6.jpg");
+    min-height: 520px;
 }
 /* closing page */
-.page5 {
+.page6 {
     background-image: url("../images/background1.jpg");
     min-height: 100%;
 }
 /* tested */
 .section {
     text-align: center;
-    padding: 50px 100px;
+    padding: 100px 100px;
     background-color: rgb(5, 5, 5);
     color: rgb(255, 255, 255);
 }
@@ -117,9 +122,9 @@ color: rgb(255, 255, 255);
       }
   }
   /* where is this located */
-  .main {
+  /* .main {
     min-height: 100px;
     background-image: url('./better-galaxy.jpg');
     background-attachment: fixed;
     background-size: cover;
-  }
+  } */
