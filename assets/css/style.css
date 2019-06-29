@@ -16,12 +16,11 @@ body, html, h1, h2, h3, h4 {
     letter-spacing: 8px;
     text-transform: uppercase;
 }
-/* possible problem  I don't want these colors to show, errors in font also*/
 
 /* make transparent */
-.pagetext .border .trans {
+/* .pagetext .border .trans {
     background-color: transparent;
-}
+} */
 .page1, .page2, .page3, .page4 {
 position: relative;
 opacity: 0.80;
@@ -30,22 +29,27 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
+/* bio */
 .page1 {
     background-image: url("../images/background5.jpg");
     min-height: 100%;
 }
+/* contact forms */
 .page2 {
     background-image: url("../images/background2.jpg");
-    min-height: 100%;
+    min-height: 450px;
 }
+/* project page links */
 .page3 {
-    background-image: url("../images/background3.jpg");
-    min-height: 100%;
-}
-.page4 {
     background-image: url("../images/background4.jpg");
-    min-height: 100%;
+    min-height: 455px;
 }
+/* more text */
+.page4 {
+    background-image: url("../images/background3.jpg");
+    min-height: 450px;
+}
+/* closing page */
 .page5 {
     background-image: url("../images/background1.jpg");
     min-height: 100%;
@@ -57,12 +61,12 @@ background-attachment: fixed;
     background-color: rgb(5, 5, 5);
     color: rgb(255, 255, 255);
 }
-.section-light {
-background-color: blue;
-color: red;
+.section-color {
+background-color: rgb(128, 8, 68);
+color: rgb(255, 255, 255);
 }
 /* tested */
-.section-dark {
+.section-black {
     background-color: rgb(5, 5, 5);
     color: rgb(255, 255, 255);
 }
